@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Table of {{tableOf}}</title></head>
+    <body>
+        <h2>Table of {{tableOf}} rendered with Jinja -</h2>
+        {% for i in range(1,11) -%}
+        <p>{{tableOf}} x {{i}} = {{tableOf * i}}</p>
+        {%- endfor %}
+    </body>
+</html>
+
+{#
+The following jinja file prints everything that is written as it is and takes the input variable 
+enclosed in {{tableOf}} from the python file created which imports this file , renders it into a .html file ad prints the table of whatever is the input
+#}
