@@ -12,7 +12,7 @@ All our python files to render the templates will be put directly under the repo
 - python -m pip install jinja2
 
 ## Setup the project
-- Create 2 folders in teh project repository as described in teh beginning :  templates, renders
+- Create 2 folders in the project repository as described in beginning :  templates, renders
 
 ## Rendering a template 
 - Step 1: Import the necessary libraries and components (objects, functions, etc.) from libraries.
@@ -22,6 +22,7 @@ All our python files to render the templates will be put directly under the repo
 - Step 5: Print the rendered text to the screen or a file as suitable.
 
 ## Code
-- create helloWorld.jinja
-- create helloWorld.py 
+- create.jinja file 
+- create .py file corresponding to the same name as the .jinja file
+- specify the name of the output file with suitable extension, and correct path 
 - run .py file
