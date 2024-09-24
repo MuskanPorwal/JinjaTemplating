@@ -1,5 +1,5 @@
 Source : geekeforgeeks : 
-All our python files to render the templates will be put directly under the jinjaTests folder and the jinja templates would be put under templates folder. We will run the python programs from the jinjaTests folder as the current working directory/folder and any files rendered will be saved in renders folder.
+All our python files to render the templates will be put directly under the repository and the jinja templates would be put under templates folder. We will run the python programs from the repository as the current working directory/folder and any files rendered will be saved in renders folder.
 
 ## Installing python 
 - First get the python extension in the visual studio to highlight the syntax 
